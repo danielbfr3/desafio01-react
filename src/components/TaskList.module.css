@@ -1,0 +1,29 @@
+.wrapper {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 0 0.5rem;
+}
+
+.wrapperEmpty {
+    margin: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height:1.8;
+    /* font-size: 1.5rem; */
+    color: var(--gray-400);
+}
+
+.wrapperEmpty > svg {
+    color: var(--gray-400);
+    margin-bottom: 1rem;
+}
+
+.wrapperEmpty > p:first-of-type {
+    font-weight: bold;
+    color: var(--gray-300);
+}
+

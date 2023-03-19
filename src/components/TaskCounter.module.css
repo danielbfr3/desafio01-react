@@ -1,0 +1,37 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0.5rem;
+    font-size: 0.9rem;
+}
+
+.tasksCreated p {
+    font-weight: bold;
+    color: var(--blue);
+}
+
+.tasksCreated span {
+    font-weight: bold;
+    color: var(--gray-200);
+    background: var(--gray-400);
+    margin: 0.5rem;
+    border: solid var(--gray-400);
+    border-width: 0.2rem 0.8rem;
+    border-radius: 16px;
+}
+
+.tasksDone p {
+    font-weight: bold;
+    color: var(--purple);
+}
+
+.tasksDone span {
+    font-weight: bold;
+    color: var(--gray-200);
+    background: var(--gray-400);
+    margin: 0.5rem;
+    border: solid var(--gray-400);
+    border-width: 0.2rem 0.8rem;
+    border-radius: 16px;
+}
