@@ -13,12 +13,12 @@ Para instalar e executar o projeto, siga os passos abaixo:
 Clone o repositório para o seu computador local:
 
 ~~~bash
-git clone https://github.com/seu_usuario/desafio01-rocketseat-react.git
+git clone https://github.com/danielbfr3/desafio01-react.git
 ~~~
 
 Navegue até a pasta do projeto e instale as dependências necessárias:
 ~~~bash
-cd desafio01-rocketseat-react
+cd desafio01-react
 npm install
 ~~~
 
